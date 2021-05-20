@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Karla,sans-serif
+}
+
+.car_lists {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    justify-content: center;
+
+}
+
+.car_lists > a {
+    text-decoration: none;
+    color: white;
+    width: 30%;
+    margin: 5px;
+}
+
+.car_lists > a > img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.car_lists > a > p {
+    background-color: black;
+    text-align: center;
+    font-size: 3vw;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+.car_point_titel{
+    font-size: 4vw;
+}
+
+.car_point_Logo{
+ 
+    
+    height: 15%;
+}
