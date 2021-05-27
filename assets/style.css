@@ -43,7 +43,43 @@ header{
 }
 
 .car_point_Logo{
- 
-    
     height: 15%;
+}
+
+.detail_logo {
+    position: absolute;
+    left: 0px;
+    width: 15%;
+}
+
+.detail {
+    text-align: center;
+}
+
+.detail > img {
+    width: 100%;
+}
+
+.detail > h1 {
+    font-size: 10vw;
+}
+
+.deatil_pictures {
+    display: flex;
+}
+
+.deatil_pictures > img {
+    width: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+    .car_lists > a {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .car_lists > a {
+        width: 100%;
+    }    
 }
