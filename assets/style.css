@@ -49,14 +49,19 @@ header{
 .detail_logo {
     position: absolute;
     left: 0px;
-    width: 15%;
+    margin: 20px;
+    width: 11%;
 }
 
 .detail {
     text-align: center;
 }
 
-.detail > img {
+.detail > picture > img {
+    width: 100%;
+}
+
+.detail > picture > source {
     width: 100%;
 }
 
