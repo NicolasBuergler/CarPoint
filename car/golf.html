@@ -26,7 +26,10 @@
         <h1>Golf</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <video controls>
-            <source src="../assets/golf/subtitle.mp4" type="video/mp4">
+            <!--Untertitle funktionieren bei Chrome und Firefox noch nicht, kann damit zusammenhängen, dass es Lokal geladen wird, beim IE funktionierts-->
+            <track src="../assets/golf/subtitleDE.vtt" label="Deutsch" kind="subtitles" srclang="de">
+            <track src="../assets/golf/subtitleEN.vtt" label="English" kind="subtitles" srclang="en">
+            <source src="../assets/golf/Golf_Video.mp4" type="video/mp4">
         </video>
         <div class="deatil_pictures">
             <img alt="front" src="https://www.carpoint.de/documents/category/7817/Porsche-356-1.jpg" />
