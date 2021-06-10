@@ -43,7 +43,7 @@ header{
 }
 
 .car_point_Logo{
-    height: 15%;
+    height: 20%;
 }
 
 .detail_logo {
@@ -64,6 +64,16 @@ header{
     font-size: 10vw;
 }
 
+.detail > video {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.detail > p {
+    width: 50%;
+    margin: 50px auto;
+}
+
 .deatil_pictures {
     display: flex;
 }
@@ -75,6 +85,32 @@ header{
 @media screen and (max-width: 1200px) {
     .car_lists > a {
         width: 40%;
+    }
+
+    .car_lists > a > p {
+        font-size: 10vw;
+    }
+
+    .detail > h1 {
+        font-size: 20vw;
+        margin-top: 20px;
+    }
+
+    .detail > p {
+        width: 90%;
+    }
+
+    .detail > video {
+        width: 90%;
+    }
+
+    .deatil_pictures {
+        flex-direction: column;
+    }
+
+    .deatil_pictures > img {
+        width: 90%;
+        margin: 20px auto;
     }
 }
 
