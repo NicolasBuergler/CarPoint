@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     margin: 10px 20px;
     justify-content: center;
-
+    margin-bottom: 100px;
 }
 
 .car_lists > a {
