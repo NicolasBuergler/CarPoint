@@ -38,6 +38,23 @@ header{
     text-align: center;
 }
 
+footer {
+    display: flex;
+    background-color: #87d9f5;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+footer > div {
+    width: 50%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+footer h2 {
+    font-size: 3vw;
+}
+
 .car_point_titel{
     font-size: 4vw;
 }
@@ -90,6 +107,10 @@ header{
 
 .deatil_pictures > img {
     width: 20%;
+}
+
+.impressum {
+    margin-bottom: 400px;
 }
 
 @media screen and (max-width: 1200px) {
