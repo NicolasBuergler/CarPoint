@@ -16,6 +16,18 @@
     <link rel="stylesheet" href="../assets/style.css" data-n-g="" />
 
     <!--Script-->
+    <script type="text/javascript">
+		function playAndPause() {
+			const video = document.getElementById('video')
+
+			if(video.paused) {
+				console.log('ja')
+				video.play()
+			} else {
+				video.pause()
+			}
+		}
+        </script>
 </head>
 
 <body>
@@ -36,12 +48,15 @@
             auch über die Jahre halten kann. Dieses Modell verfügt über einen 1.4L Benzin 4 Zylinder Motor. 122PS
             schieben mit Kraft nach vorne, mehr braucht es für den Anfang nicht.
         </p>
-        <video controls>
+        <video controls id="video">
             <!--Untertitle funktionieren bei Chrome und Firefox noch nicht, kann damit zusammenhängen, dass es Lokal geladen wird, beim IE funktionierts-->
             <track src="../assets/golf/subtitleDE.vtt" label="Deutsch" kind="subtitles" srclang="de">
             <track src="../assets/golf/subtitleEN.vtt" label="English" kind="subtitles" srclang="en">
             <source src="../assets/golf/Golf_Video.mp4" type="video/mp4">
         </video>
+        <div>
+            <button onclick="playAndPause()">Play/Pause</button> 
+        </div>
         <div class="deatil_pictures">
             <img alt="front" src="../assets/golf/Front.jpg" />
             <img alt="right side" src="../assets/golf/RightSide.jpg" />

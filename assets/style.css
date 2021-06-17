@@ -101,6 +101,16 @@ footer h2 {
     margin: 50px auto;
 }
 
+.detail button {
+    font-size: 2vw;
+    background-color: #87d9f5;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
 .deatil_pictures {
     display: flex;
 }
@@ -142,6 +152,10 @@ footer h2 {
     .deatil_pictures > img {
         width: 90%;
         margin: 20px auto;
+    }
+
+    .detail button {
+        font-size: 5vw;
     }
 }
 
