@@ -119,7 +119,7 @@ footer h2 {
     }
 
     .car_lists > a > p {
-        font-size: 10vw;
+        font-size: 3vw;
     }
 
     .detail > h1 {
@@ -149,6 +149,10 @@ footer h2 {
     .car_lists > a {
         width: 100%;
     }    
+    
+    .car_lists > a > p {
+        font-size: 10vw;
+    }
 }
 
 .impressum {
